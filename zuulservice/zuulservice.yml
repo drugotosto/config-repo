@@ -21,7 +21,7 @@ zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 
 # Definisce la configurazione di default da utilizzare in generale per tutti i microservizi che vengono chiamati sfruttando Zuul
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3500
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 4500
 # Definisce la configurazione specifica per il "licensingservice" che gira con Zuul
 #hystrix.command.licensingservice.execution.isolation.thread.timeoutInMilliseconds: 2
 # Possibile anche il timeout di default utilizzato invece da Ribbon
