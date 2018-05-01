@@ -6,7 +6,7 @@
 
 zuul.prefix:  "/api"
 zuul.ignored-services: "organizationservice"
-zuul.routes.organizationservice: "/organization/**"
+zuul.routes.organizationservice: "/organizationsssssssss/**"
 #zuul.routes.licensingservice: /licensing/**
 #zuul.routes.authenticationservice: /auth/**
 
